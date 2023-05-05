@@ -1,0 +1,37 @@
+.sombra{
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.212);
+}
+.tamanho{
+    width: 960px;
+    margin: auto;
+}
+.template-paralax{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 960px;
+    background-image: url("condor-12.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: auto;
+    text-align: center;
+    padding: 25px;
+    margin-top: 5px;
+    /* margin-bottom: 500px; */
+    margin-bottom: 50px;
+}
+.template-paralax h3{
+    background-color: rgba(0, 0, 0, 0.529);
+    padding: 20px;
+    display: inline-block;
+    color: white;
+    letter-spacing: 3px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+
