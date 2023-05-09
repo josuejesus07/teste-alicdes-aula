@@ -1,13 +1,91 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    
+    
+}
+.navbar{
+    background: linear-gradient(#1D84B5, #53A2BE);
+    box-shadow:  3px 3px 6px #0A2239; 
+}
+ ul li a{
+    text-decoration: none;
+    color: white;
+    
+
+} 
+input[type="checkbox"]{
+    display: none;
+}
+ul li{
+    list-style: none;
+    padding: 8px 0;
+    padding-left:5px;
+    
+}
+.itens{
+    background-color: rgba(43, 79, 127, 0.736);
+    width: 380px;
+    position: absolute;
+    top: 0;
+    left: -380px;
+    z-index: 1; 
+}
+li a{
+    /* border: 1px solid #ccc; */
+    display: block;
+    padding:10px 0;
+    color: black;
+    width:360px ;
+    margin: auto;
+    padding-left: 30px;
+    
+    
+}
+
+
+li a:hover{
+    background-color: #041242;
+    color: white;
+    text-decoration: none;
+}
+label{
+    
+    /* position: absolute; */
+    cursor: pointer;
+    z-index: 2;
+    position: absolute;
+}
+input[type="checkbox"]:checked ~ .itens{
+    transform: translateX(380px);
+    transition:1s;
+}
+
+input[type="checkbox"]:not(:checked) ~ .itens {
+    transition: 1s;
+}
+
+
+h3{
+    color: #0A2239;
+}
+
+
 .sombra{
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.212);
 }
 .tamanho{
     width: 960px;
+    
     margin: auto;
+}
+.imglogo{
+    width:50px;
 }
 .template-paralax{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    width: 960px;
+    
     background-image: url("condor-12.jpg");
     background-position: center center;
     background-repeat: no-repeat;
@@ -33,5 +111,302 @@ footer{
     text-align: center;
     padding: 25px;
 }
+.imagem-renderizada{
+    margin: auto;
+    padding: 10px;
+}
+.botao03{
+    margin-top:90px ;
+}
+.render03 {
+    margin-top:40px ;
 
 
+}
+.margin03img{
+    margin-top: 80px;
+}
+.margin03text{
+    margin-top: 33px;
+}
+.login{
+    width: 35px;
+    margin-right: 10px;
+}
+.carrinho{
+    width: 35px;
+    margin-right: 10px;
+}
+.margin04img{
+    position: absolute;
+    top: 80px;
+    left: 15px;
+}
+/* .margin04text{ */
+    /* margin-top:120px; */
+/* } */
+.relativo{
+    position: relative;
+    
+}
+.absoluto{
+    position: absolute;
+    top:280px;
+}
+/* Paralax margarina */
+
+.template-paralax02{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    background-image: url("margarinas.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover ;
+    margin: auto;
+    text-align: center;
+    padding: 25px;
+    margin-top: 5px;
+    /* margin-bottom: 500px; */
+    margin-bottom: 50px;
+}
+.template-paralax02 h3{
+    background-color: rgba(0, 0, 0, 0.529);
+    padding: 20px;
+    display: inline-block;
+    color: white;
+    letter-spacing: 3px;
+}
+
+/* Paralax Graos */
+
+.template-paralax03{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    background-image: url("graos.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover ;
+    margin: auto;
+    text-align: center;
+    padding: 25px;
+    margin-top: 5px;
+    /* margin-bottom: 500px; */
+    margin-bottom: 50px;
+}
+.template-paralax03 h3{
+    background-color: rgba(0, 0, 0, 0.529);
+    padding: 20px;
+    display: inline-block;
+    color: white;
+    letter-spacing: 3px;
+}
+
+/* paralax temperos */
+
+.template-paralax04{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    background-image: url("temperos.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover ;
+    margin: auto;
+    text-align: center;
+    padding: 25px;
+    margin-top: 5px;
+    /* margin-bottom: 500px; */
+    margin-bottom: 50px;
+}
+.template-paralax04 h3{
+    background-color: rgba(0, 0, 0, 0.529);
+    padding: 20px;
+    display: inline-block;
+    color: white;
+    letter-spacing: 3px;
+}
+
+/* paralax doces */
+
+.template-paralax05{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    background-image: url("doces.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover ;
+    margin: auto;
+    text-align: center;
+    padding: 25px;
+    margin-top: 5px;
+    /* margin-bottom: 500px; */
+    margin-bottom: 50px;
+}
+.template-paralax05 h3{
+    background-color: rgba(0, 0, 0, 0.529);
+    padding: 20px;
+    display: inline-block;
+    color: white;
+    letter-spacing: 3px;
+}
+
+/* paralax bebidas */
+
+.template-paralax06{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    background-image: url("bebidas.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover ;
+    margin: auto;
+    text-align: center;
+    padding: 25px;
+    margin-top: 5px;
+    /* margin-bottom: 500px; */
+    margin-bottom: 50px;
+}
+.template-paralax06 h3{
+    background-color: rgba(0, 0, 0, 0.529);
+    padding: 20px;
+    display: inline-block;
+    color: white;
+    letter-spacing: 3px;
+}
+
+/* paralax higiene */
+
+.template-paralax07{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    background-image: url("limpeza.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover ;
+    margin: auto;
+    text-align: center;
+    padding: 25px;
+    margin-top: 5px;
+    /* margin-bottom: 500px; */
+    margin-bottom: 50px;
+}
+.template-paralax07 h3{
+    background-color: rgba(0, 0, 0, 0.529);
+    padding: 20px;
+    display: inline-block;
+    color: white;
+    letter-spacing: 3px;
+}
+
+
+/* paralax peixes */
+
+
+
+
+
+.template-paralax09{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    background-image: url("derivados.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover ;
+    margin: auto;
+    text-align: center;
+    padding: 25px;
+    margin-top: 5px;
+    /* margin-bottom: 500px; */
+    margin-bottom: 50px;
+}
+.template-paralax09 h3{
+    background-color: rgba(0, 0, 0, 0.529);
+    padding: 20px;
+    display: inline-block;
+    color: white;
+    letter-spacing: 3px;
+}
+
+/* paralax verduras */
+.template-paralax08{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    background-image: url("frutas.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover ;
+    margin: auto;
+    text-align: center;
+    padding: 25px;
+    margin-top: 5px;
+    /* margin-bottom: 500px; */
+    margin-bottom: 50px;
+}
+.template-paralax08 h3{
+    background-color: rgba(0, 0, 0, 0.529);
+    padding: 20px;
+    display: inline-block;
+    color: white;
+    letter-spacing: 3px;
+}
+html,body {
+    scroll-behavior: smooth;
+  }
+
+.formatacao{
+    font-weight: bold;
+    font-size: 14pt;
+}
+.preco{
+    font-size: 14pt;
+    color: #1D84B5;
+}
+
+.template-paralax10{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    background-image: url("contato.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: auto;
+    text-align: center;
+    padding: 25px;
+    margin-top: 5px;
+    /* margin-bottom: 500px; */
+    margin-bottom: 50px;
+}
+.template-paralax10 h3{
+    background-color: rgba(0, 0, 0, 0.529);
+    padding: 20px;
+    display: inline-block;
+    color: white;
+    letter-spacing: 3px;
+}
+
+
+
+footer{
+    background: linear-gradient(#1D84B5, #53A2BE);
+}
+
+
+/* medias queries */
+
+@media(max-width:660px){
+    .flex-carnes{
+
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-y: scroll;
+        
+    }
+    
+}
