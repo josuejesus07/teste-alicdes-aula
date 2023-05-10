@@ -408,5 +408,13 @@ footer{
         overflow-y: scroll;
         
     }
+    .mobile-carrosel{
+        margin-top: 73px;
+    }
     
+}
+@media(max-width:500px) {
+.estilo-carrosel{
+    width: 9vw;
+}
 }
