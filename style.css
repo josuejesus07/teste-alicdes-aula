@@ -397,6 +397,11 @@ footer{
     background: linear-gradient(#1D84B5, #53A2BE);
 }
 
+    .desk-carrosel{
+        margin-top: 60px;
+        width: 09vw;
+    }
+
 
 /* medias queries */
 
@@ -412,9 +417,4 @@ footer{
         margin-top: 73px;
     }
     
-}
-@media(max-width:500px) {
-.estilo-carrosel{
-    width: 9vw;
-}
 }
